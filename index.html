@@ -1,49 +1,76 @@
 <!DOCTYPE html>
-<html >
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Japanese Handwriting</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <meta charset="UTF-8">
+    <title>Japanese Handwriting Tool</title>
 
-  <link rel='stylesheet prefetch' href='https://dl.dropboxusercontent.com/u/20912690/mikes-japanese-fonts.css'>
+    <!-- Fav Icon -->
+    <link rel="icon" type="image/png" href="http://res.cloudinary.com/mca62511/image/upload/c_scale,w_108/v1481167639/icon_111060_1_c0fxr0.png">
+    
+    <!-- Google -->
+    <meta name="description" content="This is a simple tool that allows you to type in a Japanese stroke order font or a cute Japanese font. Use this to practice your Japanese handwriting.">
+    <meta name="keywords" content="japanese, handwriting, tool, cute, font, stroke, order">
+    <meta name="application-name" content="Japanese Handwriting Tool">
 
-      <link rel="stylesheet" href="css/style.css">
+    <!-- Facebook -->
+    <meta property="og:title" content="Japanese Handwriting Tool">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="http://res.cloudinary.com/mca62511/image/upload/v1481167905/16578701831_e1b82191a6_b_1_k5zmcc.jpg">
+    <meta property="og:description" content="This is a simple tool that allows you to type in a Japanese stroke order font or a cute Japanese font. Use this to practice your Japanese handwriting.">
 
-  
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Japanese Handwriting Tool">
+    <meta name="twitter:description" content="This is a simple tool that allows you to type in a Japanese stroke order font or a cute Japanese font. Use this to practice your Japanese handwriting.">
+    <meta name="twitter:image" content="http://res.cloudinary.com/mca62511/image/upload/v1481167905/16578701831_e1b82191a6_b_1_k5zmcc.jpg">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+    <link rel='stylesheet prefetch' href='https://dl.dropboxusercontent.com/u/20912690/mikes-japanese-fonts.css'>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
 </head>
 
 <body>
-  <nav>
-<div class="toolbar">
-    <div class="button bigger">
-        Bigger
-    </div>
-    <div class="button smaller">
-        Smaller
-    </div>
-    <div class="button normal">
-        Normal
-    </div>
-    <div class="button cute">
-        Cute
-    </div>
-    <div class="button stroke">
-        Stroke Order
-    </div>
-    
-</div>
-</nav>
-<div class="text-container">
-<textarea class="input-area">
+    <nav>
+        <div class="toolbar">
+            <div class="button bigger">
+                Bigger
+            </div>
+            <div class="button smaller">
+                Smaller
+            </div>
+            <div class="button normal">
+                Normal
+            </div>
+            <div class="button cute">
+                Cute
+            </div>
+            <div class="button stroke">
+                Stroke Order
+            </div>
+
+        </div>
+    </nav>
+    <div class="text-container">
+        <textarea class="input-area">
 日本語で書いて！
 </textarea>
-</div>
-<div class="palette"><p class="cute">ありがとう</p><p class="stroke">ありがとう</p></div>
+    </div>
+    <div class="palette">
+        <p class="cute">ありがとう</p>
+        <p class="stroke">ありがとう</p>
+    </div>
 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 
     <script src="js/index.js"></script>
 
 </body>
+
 </html>
