@@ -12,6 +12,7 @@ body {
     background-color: transparent;
     padding: 0;
     margin: 0;
+    transition: all 400ms;
 }
 
 .text-container {
@@ -44,11 +45,12 @@ nav {
 }
 
 .button {
-    padding: 0.5em;
+    padding: 0.5em 1em;
     font-size: 14px;
     font-weight: 400;
     cursor: pointer;
     font-family: Roboto, Tahoma, Arial, sans-serif;
+    transition: background 800ms;
 }
 
 @media (max-width: 500px) {
@@ -70,4 +72,8 @@ p.stroke {
 
 .palette {
     opacity: 0;
+}
+
+.selected-button {
+    background: #607D8B;
 }
