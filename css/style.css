@@ -59,3 +59,15 @@ nav {
         display: inline-block;
     }
 }
+
+p.cute {
+    font-family: "Cute Japanese";
+}
+
+p.stroke {
+    font-family: "KSO";
+}
+
+.palette {
+    opacity: 0;
+}
