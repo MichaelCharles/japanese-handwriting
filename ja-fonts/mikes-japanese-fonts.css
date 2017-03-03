@@ -10,3 +10,7 @@
     font-family: 'KSO';
     src: url(https://mca62511.github.io/japanese-handwriting/ja-fonts/KSO.ttf) format("truetype");
 }
+@font-face {
+    font-family: 'Honoka Mincho Pro';
+    src: url(https://mca62511.github.io/japanese-handwriting/ja-fonts/HMP.ttf) format("truetype");
+}
