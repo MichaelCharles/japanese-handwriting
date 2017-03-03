@@ -14,3 +14,7 @@
     font-family: 'Honoka Mincho Pro';
     src: url(https://mca62511.github.io/japanese-handwriting/ja-fonts/HMP.ttf) format("truetype");
 }
+@font-face {
+    font-family: 'Aozora Mincho Regular';
+    src: url(https://mca62511.github.io/japanese-handwriting/ja-fonts/AozoraMinchoRegular.ttf) format("truetype");
+}
