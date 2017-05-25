@@ -3,6 +3,10 @@
     src: url(https://mca62511.github.io/japanese-handwriting/ja-fonts/NotoSansCJKjp-Regular.otf) format("opentype");
 }
 @font-face {
+    font-family: "MS Chinese";
+    src: url(https://mca62511.github.io/japanese-handwriting/ja-font/chinese.msyh.ttf) format("truetype");
+}
+@font-face {
     font-family: 'Cute Japanese';
     src: url(https://mca62511.github.io/japanese-handwriting/ja-fonts/APJapanesefont.ttf) format("truetype");
 }
