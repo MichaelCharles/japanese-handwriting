@@ -1,24 +1,30 @@
 @font-face {
-    font-family: 'Noto Japanese';
-    src: url(https://mcaubrey.github.io/japanese-handwriting/ja-fonts/NotoSansCJKjp-Regular.otf) format("opentype");
+  font-family: "Noto Japanese";
+  src: url(https://michaelcharles.github.io/japanese-handwriting/ja-fonts/NotoSansCJKjp-Regular.otf)
+    format("opentype");
 }
 @font-face {
-    font-family: "MS Chinese";
-    src: url(https://mcaubrey.github.io/japanese-handwriting/ja-font/chinese.msyh.ttf) format("truetype");
+  font-family: "MS Chinese";
+  src: url(https://michaelcharles.github.io/japanese-handwriting/ja-font/chinese.msyh.ttf)
+    format("truetype");
 }
 @font-face {
-    font-family: 'Cute Japanese';
-    src: url(https://mcaubrey.github.io/japanese-handwriting/ja-fonts/APJapanesefont.ttf) format("truetype");
+  font-family: "Cute Japanese";
+  src: url(https://michaelcharles.github.io/japanese-handwriting/ja-fonts/APJapanesefont.ttf)
+    format("truetype");
 }
 @font-face {
-    font-family: 'KSO';
-    src: url(https://mcaubrey.github.io/japanese-handwriting/ja-fonts/KSO.ttf) format("truetype");
+  font-family: "KSO";
+  src: url(https://michaelcharles.github.io/japanese-handwriting/ja-fonts/KSO.ttf)
+    format("truetype");
 }
 @font-face {
-    font-family: 'Honoka Mincho Pro';
-    src: url(https://mcaubrey.github.io/japanese-handwriting/ja-fonts/HMP.ttf) format("truetype");
+  font-family: "Honoka Mincho Pro";
+  src: url(https://michaelcharles.github.io/japanese-handwriting/ja-fonts/HMP.ttf)
+    format("truetype");
 }
 @font-face {
-    font-family: 'Aozora Mincho Regular';
-    src: url(https://mcaubrey.github.io/japanese-handwriting/ja-fonts/AozoraMinchoRegular.ttf) format("truetype");
+  font-family: "Aozora Mincho Regular";
+  src: url(https://michaelcharles.github.io/japanese-handwriting/ja-fonts/AozoraMinchoRegular.ttf)
+    format("truetype");
 }
